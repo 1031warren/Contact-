@@ -1,0 +1,62 @@
+
+
+body{
+    background-color: aqua;
+    color: darkcyan;
+
+}
+
+form{
+
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 5px;
+  
+}
+
+input{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 2px;
+
+}
+   
+.row{
+    padding-bottom: 10px;
+}
+   
+.error{
+    color: red;
+}
+    
+input[type="submit"]{
+    background-color: blue;
+    color: ivory;
+    cursor: pointer;
+}
+    
+input[type="submit"]:hover{
+   background-color: lightcoral;
+
+}
+.wrapper header{
+  font-size: 22px;
+  font-weight: 600; 
+  padding: 20px 30px; 
+  border-bottom: 1px solid  #bfbfbf;
+
+}
+.wrapper form{
+    margin: 35px 30px;
+
+}
+form .dbl-field{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
